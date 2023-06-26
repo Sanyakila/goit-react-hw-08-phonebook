@@ -1,6 +1,6 @@
 import { LogIn, Label, Form, Input, Button } from "./LoginForm.styled";
 import { useDispatch } from "react-redux";
-import { LogIn } from 'redux/Auth/auth.thunk';
+import { logIn } from 'redux/Auth/auth.thunk';
 
 export const LoginForm = () => {
     const dispatch = useDispatch();
