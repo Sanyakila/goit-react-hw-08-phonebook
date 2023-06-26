@@ -29,7 +29,7 @@ export const Button = styled.button`
     &:active, 
     &:hover,
     &:focus {
-        background-color: orangered;
+        background-color: #32CD32;
         color: white;
         border-color: none;
 }`; 

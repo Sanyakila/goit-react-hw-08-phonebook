@@ -19,7 +19,7 @@ export const Button = styled.button`
     font-weight: 700;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 8px 16px;
-    color: orangered;
+    color: #32CD32;
     background-color: white; 
     border: 1px solid;
     border-radius: 8px;
@@ -28,7 +28,7 @@ export const Button = styled.button`
     &:hover,
     &:focus {
         color: white;
-        background-color: orangered;
+        background-color: #32CD32;
         border-color: none;
     }
 `;

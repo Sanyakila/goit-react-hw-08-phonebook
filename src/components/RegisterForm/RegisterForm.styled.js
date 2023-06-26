@@ -11,7 +11,7 @@ export const SignUp = styled.h1`
   font-size:48px;
   font-weight: bold;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: orangered;
+  color: #32CD32;
   text-align: center;
   
 `;
@@ -48,7 +48,7 @@ export const Button = styled.button`
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 16px;
     margin-bottom: 16px;
-    color: orangered;
+    color: #32CD32;
     background-color: white; 
     border: 1px solid;
     border-radius: 8px;
@@ -58,7 +58,7 @@ export const Button = styled.button`
     &:hover,
     &:focus {
         color: white;
-        background-color: orangered;
+        background-color: #32CD32;
         border-color: none;
     }
 `;

@@ -4,7 +4,7 @@ export const TitleHome = styled.h1`
   display: flex;
   align-items: center;
   justify-content: center;
-  color: orangered;
+  color: #32CD32;
   padding: 30px;
   `;
 

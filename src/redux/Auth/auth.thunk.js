@@ -11,11 +11,12 @@ const clearAuthHeader = () => {
     axios.defaults.headers.common.Authorization = '';
 }
 
-export const register = createAsyncThunk('quth/register', async (credentials, thunkAPI) => {
+export const register = createAsyncThunk('auth/register', async (credentials, thunkAPI) => {
     try {
         const response = await axios.post('/users/signup', credentials);
         setAuthHeader(response.data.token)
         return response.data;
+        
     } catch (error) {
         return thunkAPI.rejectWithValue(error.message);
     }
@@ -40,7 +41,7 @@ export const logOut = createAsyncThunk('auth/logout', async (_, thunkAPI) => {
     }
 });
 
-export const fefreshUser = createAsyncThunk('auth/refresh', async (_, thunkAPI) => {
+export const refreshUser = createAsyncThunk('auth/refresh', async (_, thunkAPI) => {
     const state = thunkAPI.getState();
 
     const persistedToken = state.auth.token;

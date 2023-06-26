@@ -18,5 +18,5 @@ export const MessageUser = styled.p`
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 500;
     font-size: 36px;
-    color: orangered;
+    color: #32CD32;
 `;
